@@ -33,6 +33,10 @@ public class Main {
 		
 		loginButton.click();
 		
+		Select sel = new Select(driver.findElement(By.xpath("//select[@class='product_sort_container']")));
+		
+		sel.selectByIndex(3);
+		
 		
 
 	}
